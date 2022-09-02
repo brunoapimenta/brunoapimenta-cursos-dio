@@ -1,0 +1,66 @@
+### comandos básicos Linux e Git Bash
+ls - lista os itens da pasta
+ls -a - visualiza itens ocultos
+clear - limpa tela
+cd - muda de diretório
+cat - visualiza arquivo
+mkdir - cria pasta
+
+### Criar SSH-Key
+
+ssh-keygen -t ed25519 -c email
+
+### habilitar SHH automático
+
+ eval $(ssh-agent -s)
+ssh-add id_ed25519
+
+### clonar diretório GitHub
+
+git clone XXXXXXX
+
+### Adicionar GIT na pasta
+
+git init
+
+### Configurar user e mail do git
+
+git config --global user.email "email"
+git config --global user.name "nome"
+
+
+### Adicionar itens untracked no GIT
+
+git add *
+
+
+### Comitar GIT
+
+git commit -m "TEXTO"
+
+
+### Status do GIT
+
+git status - verificar itens alterados
+
+
+### Configurar o diretório do GitHub para fazer o push
+
+git remote add origin diretório - usa origin como padrão
+
+
+### verificar o diretório do remote
+
+git remote -v
+
+
+### Fazer o push
+
+$ git push origin master
+
+### Fazer o Pull
+
+git pull origin master
+
+
+
