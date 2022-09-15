@@ -1,0 +1,44 @@
+Definião: Coleão de palavras, que dentre elas há relacionamento entre dados, constituindo então um banco de dados.
+
+SGBD - Sistemas de Gerenciamento de Banco de Dados
+Definião
+Construão
+Manipulação
+Compartilhamento
+
+
+Modelo Relacional
+
+BDA - Administrador - Usa LDD, linguagem de Definição de Dados
+
+
+Abordagem BD - Características principais
+
+- Abastração
+- isolamento
+- Auto-descrição
+- Compartilhamento
+- Múltiplas visões
+- Transação Multiuser
+
+
+- ComandosMYSQL
+
+CREATE DATABASE xxxx;
+
+DROP DATABASE XXXX;
+
+SHOW DATABASES;
+
+USE XXXX;
+
+CREATE TABLE XXXX(
+id INT AUTO_INCREMENT PRIMARY KEY
+XXX
+);
+
+SHOW TABLES;
+
+ALTER TABLE XXX ADD CONSTRAINT XXXXXX FOREIGN KEY (id_editora) Rerefences editoras(id);
+
+INSERT INTO XXXX (var1, var2) VALUES ('xxxx', 'xxx'), ('xxxx', 'xxx');
